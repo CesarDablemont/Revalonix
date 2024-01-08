@@ -1,0 +1,125 @@
+/*----------- Importation des police San Francisco Pro --------- */
+@font-face {
+	font-family: 'SF Pro';
+	src: url('../assets/font/SF-Pro.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../assets/font/Helvetica.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Helvetica Rouded';
+	src: url('../assets/font/helvetica-rounded-bold.otf') format('truetype');
+}
+
+/*----------- Enlever le style par defaut des elements --------- */
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica', sans-serif;
+
+	--main: #405bab;
+	--second: #ff914d;
+	--light-blue: #d6dcff;
+	--main-alpha: #405bab27;
+
+	--off-white: #f5f3f1;
+  --soft-white: #f1f1f1;
+	--pur-white: #fff;
+	--black: #000000;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	outline: none;
+}
+
+nav {
+	width: auto; /* longeur automatique */
+	height: 100px; /* nav de 80px de hauteur */
+	background: var(--main); /* fond de la couleur de la variable orange */
+	position: sticky; /* reste collé en haut de la page */
+	top: 0; /* reste collé en haut de la page */
+	transition: all 0.3s ease-out;
+	z-index: 1; /* passe au dessus des autres elements */
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-container {
+	display: flex;
+}
+
+#Revalonix {
+	display: flex;
+	font-size: 50px;
+	align-items: center;
+	font-family: 'Helvetica Rouded', sans-serif;
+	color: var(--off-white);
+	padding: 20px;
+}
+
+.list {
+	width: auto;
+	height: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end; /* Use flex-end to align items to the right */
+	align-items: center;
+	/* flex-grow: 1; */
+	margin-right: 50px;
+}
+
+.list .list-item {
+	margin: 0 20px;
+	font-size: 20px;
+	transition: 0.4s ease-out; /* la transision se fait sur 0.4s pour pouvoir la voir */
+	display: inline-flex;
+}
+
+.list .list-item:hover {
+	transition: 0.4s ease-out; /* la transision se fait sur 0.4s pour pouvoir la voir */
+}
+
+.list .list-link {
+	color: var(--off-white); /* text en couleur de la variable blanc */
+	text-decoration: none; /* enleve le style par defaut des liens */
+	padding: 1px 0; /* aére le text pour le decalé d'un pixel la ligne en dessous*/
+	text-transform: uppercase; /* met tout le texte en majuscule */
+	position: relative; /* Required for positioning the ::after pseudo-element */
+	/* align-items: center; */
+}
+
+.list #svg {
+	fill: var(--main);
+	color: var(--off-white);
+	margin-left: 10px;
+}
+
+.list .list-link::after {
+	/* sytle aprés le lien */
+	content: ''; /* on veut ajouter une ligne pas du contenu alors on laisse vide*/
+	position: absolute;
+	bottom: 0;
+	left: 50%; /* animation commence au millieu */
+	width: 0%; /* avec une taille de 0 */
+	height: 2px; /* ligne de 2px d'epaiseur */
+	background: var(--off-white);
+	transition: 0.4s ease-out; /* la transision se fait sur 0.4s pour pouvoir la voir */
+}
+
+.list .list-link:hover::after {
+	left: 0;
+	width: 100%; /* Expand the line to 100% on hover */
+}
