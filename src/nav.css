@@ -30,6 +30,8 @@
 	--soft-white: #f1f1f1;
 	--pur-white: #fff;
 	--black: #000000;
+
+	--roundPx: 10px;
 }
 
 button {
@@ -41,6 +43,7 @@ button {
 	color: inherit;
 	cursor: pointer;
 	outline: none;
+	visibility: visible;
 }
 
 h1 {
@@ -133,7 +136,6 @@ nav {
 
 /*----------- POPUP --------- */
 
-
 .popup-wrapper {
 	z-index: 10;
 	backdrop-filter: blur(5px); /* Adjust the blur value as needed */
@@ -154,7 +156,7 @@ nav {
 	padding: 20px;
 	position: relative;
 	background: var(--off-white);
-	border-radius: var(--rounded-box-px, 10px);
+	border-radius: var(--roundPx);
 	box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	flex-shrink: 0;
 }
@@ -212,12 +214,17 @@ select {
 
 .submit {
 	margin-top: 20px;
+	padding: 10px;
+	border-radius: var(--roundPx);
+	background-color: var(--second);
+	color: var(--off-white);
 }
 
 .popup-close {
 	position: absolute;
 	top: 15px;
 	right: 20px;
+	font-size: 20px;
 	cursor: pointer;
 }
 
@@ -238,7 +245,7 @@ select {
 #loginT2 {
 	font-size: 20px;
 	color: var(--second);
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 #loginT2:hover {

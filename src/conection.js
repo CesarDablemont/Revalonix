@@ -15,26 +15,26 @@ buttonConnexion.addEventListener('click', () => {
   loginT2.textContent = 'Crée un compte';
   loginT3.textContent = 'Se connecter';
   popup.style.display = 'block';
-  popupHide1.style.display = 'none';
-  popupHide2.style.display = 'none';
+  popupHide1.style.visibility = 'hidden';
+  popupHide2.style.visibility = 'hidden';
 });
 
 loginT2.addEventListener('click', () => {
   if (popupState) {
-    loginT1.textContent = 'Connexion';
-    loginT2.textContent = 'Crée un compte';
-    loginT3.textContent = 'Se connecter';
-    popup.style.display = 'block';
-    popupHide1.style.display = 'none';
-    popupHide2.style.display = 'none';
-    popupState = false;
-  } else {
     loginT1.textContent = 'Crée un compte';
     loginT2.textContent = 'Connexion';
     loginT3.textContent = 'S\'inscrire';
     popup.style.display = 'block';
-    popupHide1.style.display = 'flex';
-    popupHide2.style.display = 'flex';
+    popupHide1.style.visibility = 'visible';
+    popupHide2.style.visibility = 'visible';
+    popupState = false;
+  } else {
+    loginT1.textContent = 'Connexion';
+    loginT2.textContent = 'Crée un compte';
+    loginT3.textContent = 'Se connecter';
+    popup.style.display = 'block';
+    popupHide1.style.visibility = 'hidden';
+    popupHide2.style.visibility = 'hidden';
     popupState = true;
   }
 });
