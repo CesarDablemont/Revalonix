@@ -1,0 +1,43 @@
+/* FOOTER */
+footer {
+	padding-top: 25px;
+	background-color: var(--pur-white);
+}
+
+/* element du footer centrer */
+.footer-content{
+	display: flex;
+	justify-content: center;
+  margin: 20px 0 ;
+}
+
+.footer-section {
+	width: 15%;
+}
+
+.footer-section a {
+	display: block;
+	margin-bottom: 20px;
+	color: var(--main);
+	text-align: center;
+	font-size: 14px;
+}
+
+.footer-section a:hover {
+	color: var(--second);
+}
+
+.footer-section h3 {
+	font-size: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.Copyright{
+  background-color: var(--off-white);
+  padding: 30px 0;
+  text-align: center;
+	color: var(--title);
+}

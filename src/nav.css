@@ -27,7 +27,7 @@
 	--main-alpha: #405bab27;
 
 	--off-white: #f5f3f1;
-  --soft-white: #f1f1f1;
+	--soft-white: #f1f1f1;
 	--pur-white: #fff;
 	--black: #000000;
 }
@@ -42,6 +42,13 @@ button {
 	cursor: pointer;
 	outline: none;
 }
+
+h1 {
+	font-family: 'SF Pro';
+	font-size: 50px;
+}
+
+/*----------- Nav bar --------- */
 
 nav {
 	width: auto; /* longeur automatique */
@@ -122,4 +129,118 @@ nav {
 .list .list-link:hover::after {
 	left: 0;
 	width: 100%; /* Expand the line to 100% on hover */
+}
+
+/*----------- POPUP --------- */
+
+
+.popup-wrapper {
+	z-index: 10;
+	backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+	background-color: rgba(0, 0, 0, 0.05); /* Adjust the background color and opacity as needed */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.popup {
+	text-align: center;
+	width: 700px;
+	height: 600px;
+	margin: 10% auto;
+	padding: 20px;
+	position: relative;
+	background: var(--off-white);
+	border-radius: var(--rounded-box-px, 10px);
+	box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	flex-shrink: 0;
+}
+
+/* .popup-content {
+	border-radius: 25px;
+	display: flex;
+	margin-top: 50px;
+	width: 100%;
+	padding: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+} */
+
+.flex-item {
+	color: var(--black);
+	font-size: 24px;
+	flex: 2 1 auto;
+	margin: 10px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.flex-item .label {
+	display: flex;
+	flex-direction: column;
+	margin: 12px auto;
+	width: 90%;
+	align-items: flex-start;
+}
+
+.flex-item .label .span {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	margin: 8px 0;
+	color: var(--black);
+}
+
+.label .input,
+select {
+	-webkit-appearance: none;
+	appearance: none;
+	border: 0;
+	outline: 0;
+	padding: 14px;
+	font-size: 14px;
+	border-radius: 30px;
+	background-color: var(--pur-white);
+	box-sizing: border-box;
+	width: 90%;
+}
+
+.submit {
+	margin-top: 20px;
+}
+
+.popup-close {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	cursor: pointer;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: var(--black);
+	opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: var(--black);
+}
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: var(--black);
+}
+
+#loginT2 {
+	font-size: 20px;
+	color: var(--second);
+	margin-top: 30px;
+}
+
+#loginT2:hover {
+	cursor: pointer;
 }
