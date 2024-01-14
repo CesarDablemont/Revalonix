@@ -1,4 +1,4 @@
-const maxMaxHeightDetailledSearchDivAnim = 60; //In px
+const maxMaxHeightDetailledSearchDivAnim = 100; //In px
 const maxHeightDeltaDetailledSearchDivAnim = 10;
 
 var detailledSearchDiv = document.getElementById("detailled-search");

@@ -84,4 +84,10 @@ body {
 
 #detailled-search {
     overflow: hidden;
+    margin-top: 12px;
+}
+
+#detailled-search-material {
+    margin-top: 12px;
+    width: 40%;
 }
