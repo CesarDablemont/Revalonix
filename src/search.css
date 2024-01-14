@@ -1,5 +1,5 @@
-#search-filter {
-    width: 100%;
+body {
+	background-color: var(--soft-white);
 }
 
 .main-container {
@@ -7,4 +7,8 @@
 	/* max-width: 1200px; Optional: set a maximum width for the main container */
 	margin: 0 auto; /* Center the main container horizontally */
 	height: calc(100vh - 100px);
+}
+
+#search-filter {
+		width: 100%;
 }
