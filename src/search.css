@@ -67,3 +67,21 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.button-as-text {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    color: black; /* You can customize the color */
+}
+
+.button-as-text:hover {
+    text-decoration: underline;
+}
+
+#detailled-search {
+    overflow: hidden;
+}
