@@ -10,5 +10,60 @@ body {
 }
 
 #search-filter {
-		width: 100%;
+	margin: 24px 48px;
+	padding: 12px;
+	background-color: var(--grey);	
+}
+
+#search-bar-input {
+    font-size: 20px;
+    width: min(max(50%, 400px), 90%); /*50%, but if too small on screen (<400px), set to 400px. Also, never more than 90% */
+
+    padding-left: 16px;
+    /*border-radius: 16px 0 0 16px;*/ /*Radius 16px on left side, 0px on right side*/
+
+	margin-right: 0px;
+}
+
+#search-bar-button {
+    padding: 0px 10px;
+    /*border-radius: 0 16px 16px 0;*/ /*Radius 16px on right side, 0px on left side*/
+
+    height: 28px; /*Prevent the button to get bigger when the font size change*/
+
+	margin-left: 0px;
+	transform: translate(-4px, -1px); /*Why do we need this*/
+
+
+
+	/* Ripped from .coolButton from Au Bon Gros Bazar */
+
+	/*Reset becaue the button change this property*/
+	font: inherit;
+
+    /*Change the cursor when hovering the button*/
+	cursor: pointer;
+
+    background-color: var(--light-blue);
+	color: black;
+    font-weight: bold;
+    font-size: 18px;
+
+	border-width: 2px;
+    border-style: solid;
+    border-color: var(--main);
+    /* border-radius: 20px; */
+
+    transition-duration: 0.4s;
+}
+
+#search-bar-button:hover {
+    padding: 0px 16px;
+}
+
+/* Not sure if I should put that here or in nav.css */
+.center-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
