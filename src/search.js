@@ -1,5 +1,5 @@
 const maxMaxHeightDetailledSearchDivAnim = 60; //In px
-const maxHeightDeltaDetailledSearchDivAnim = 4;
+const maxHeightDeltaDetailledSearchDivAnim = 10;
 
 var detailledSearchDiv = document.getElementById("detailled-search");
 var detailledSearchDivShown = false;
@@ -19,6 +19,7 @@ function detailledHideAnim(shouldShow) {
     else
     currentDetailledSearchDivMaxHeight -= maxHeightDeltaDetailledSearchDivAnim;
     detailledSearchDiv.style["max-height"] = currentDetailledSearchDivMaxHeight + "px";
+    detailledSearchDiv.style["min-height"] = currentDetailledSearchDivMaxHeight + "px";
     if(currentDetailledSearchDivMaxHeight == 0 || currentDetailledSearchDivMaxHeight == maxMaxHeightDetailledSearchDivAnim)
         window.clearInterval(detailledSearchDivAnim);
 }
