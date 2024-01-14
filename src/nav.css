@@ -69,6 +69,7 @@ nav {
 
 .logo-container {
 	display: flex;
+	text-decoration: none;
 }
 
 #Revalonix {
