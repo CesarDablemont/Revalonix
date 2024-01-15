@@ -11,6 +11,7 @@ document.getElementById("detailled-search-button").addEventListener("click", fun
         window.clearInterval(detailledSearchDivAnim);
     detailledSearchDivShown = !detailledSearchDivShown;
     detailledSearchDivAnim = setInterval(detailledHideAnim, 16, detailledSearchDivShown);
+    refreshList();
 });
 
 function detailledHideAnim(shouldShow) {
@@ -54,6 +55,8 @@ function detailledHideAnim(shouldShow) {
 
 var postList = document.getElementById("post-list");
 
+var postDivs = [];
+
 async function loadPosts() {
     //Load deetas
     try {
@@ -76,8 +79,16 @@ async function loadPosts() {
         postDesc.innerHTML = post.description;
         postDiv.appendChild(postDesc);
 
+        postDivs.push(postDiv);
         postList.appendChild(postDiv);
     });
 }
 
 loadPosts();
+
+function refreshList() {
+    postDivs.forEach(post => {
+        //post.style["display"] = "none";
+    });
+}
+

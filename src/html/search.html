@@ -135,7 +135,7 @@
     <div id="search-filter">
       <div class="center-element">
         <input id="search-bar-input" type="text" placeholder="Rechercher un matériau">
-        <button id="search-bar-button">
+        <button id="search-bar-button" onclick="refreshList()">
           <svg id="svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             color="" version="1.1" id="svg1" sodipodi:docname="search-v2.svg"
             inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -182,10 +182,10 @@
         </select>
         -->
         <div id="detailled-search-material">
-          <input type="checkbox" name="paper" checked>Papier<br>
-          <input type="checkbox" name="glass" checked>Verre<br>
-          <input type="checkbox" name="cardboard" checked>Carton<br>
-          <input type="checkbox" name="metal" checked>Métal propre<br>
+          <input type="checkbox" name="paper" onclick="refreshList()" checked>Papier<br>
+          <input type="checkbox" name="glass" onclick="refreshList()" checked>Verre<br>
+          <input type="checkbox" name="cardboard" onclick="refreshList()" checked>Carton<br>
+          <input type="checkbox" name="metal" onclick="refreshList()" checked>Métal propre<br>
         </div>
       </div>
     </div>
