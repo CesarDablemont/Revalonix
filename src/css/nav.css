@@ -1,15 +1,15 @@
 /*----------- Importation des police San Francisco Pro --------- */
 @font-face {
 	font-family: 'SF Pro';
-	src: url('../assets/font/SF-Pro.ttf') format('truetype');
+	src: url('../../assets/font/SF-Pro.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Helvetica';
-	src: url('../assets/font/Helvetica.ttf') format('truetype');
+	src: url('../../assets/font/Helvetica.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Helvetica Rouded';
-	src: url('../assets/font/helvetica-rounded-bold.otf') format('truetype');
+	src: url('../../assets/font/helvetica-rounded-bold-5871d05ead8de.otf') format('truetype');
 }
 
 /*----------- Enlever le style par defaut des elements --------- */
