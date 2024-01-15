@@ -89,5 +89,9 @@ body {
 
 #detailled-search-material {
     margin-top: 12px;
-    width: 40%;
+    /* width: 40%; */
+}
+
+#detailled-search-material > input {
+    margin-right: 12px;
 }
