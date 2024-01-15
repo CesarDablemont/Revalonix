@@ -32,7 +32,7 @@ body {
     height: 28px; /*Prevent the button to get bigger when the font size change*/
 
 	margin-left: 0px;
-	transform: translate(-4px, -1px); /*Why do we need this*/
+	transform: translate(-4px, 0px); /*Why do we need this*/
 
 
 
@@ -89,5 +89,9 @@ body {
 
 #detailled-search-material {
     margin-top: 12px;
-    width: 40%;
+    /* width: 40%; */
+}
+
+#detailled-search-material > input {
+    margin-right: 12px;
 }
