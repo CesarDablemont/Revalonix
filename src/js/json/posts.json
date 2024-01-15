@@ -4,6 +4,56 @@
             "name":"Chûtes d'inox",
             "type":"metal",
             "description":"Plaques en inox de 50cm sur 30cm de 5mm d'épaisseur. 15 cercles de 8cm de diamètre ont été découpées dedans comme sur la photo ci-jointe."
+        },
+        {
+            "name":"Plaques de verre",
+            "type":"glass",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Papier)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Carton)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+        },
+        {
+            "name":"Placeholder (Carton)",
+            "type":"paper",
+            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
         }
     ]
 }

@@ -41,6 +41,17 @@ function detailledHideAnim(shouldShow) {
 
 */
 
+/*
+
+[posts HTML architecture]
+
+<div>
+    <h3>Name</h3>
+    <p>Description</p>
+</div>
+
+*/
+
 var postList = document.getElementById("post-list");
 
 async function loadPosts() {
@@ -55,6 +66,7 @@ async function loadPosts() {
 
     posts.posts.forEach(post => {
         var postDiv = document.createElement("div");
+        postDiv.className = "postDiv";
 
         var postTitle = document.createElement("h3");
         postTitle.innerHTML = post.name;
