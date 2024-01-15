@@ -23,8 +23,11 @@
 
 	--main: #405bab;
 	--second: #ff914d;
-	--light-blue: #d6dcff;
 	--main-alpha: #405bab27;
+	--second-alpha: #ff914d27;	
+	--main-light: #c5cde6;
+	--sencond-light: #ffdec9;
+	/* --light-blue: #d6dcff; */
 
 	--off-white: #f5f3f1;
 	--soft-white: #f1f1f1;
