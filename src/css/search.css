@@ -10,111 +10,113 @@ body {
 }
 
 #search-filter {
-	margin: 24px 48px;
+	margin: 24px 30%;
 	padding: 12px;
-	background-color: var(--grey);	
+    /* border: solid 2px var(--main); */
 }
 
 #search-bar-input {
-    font-size: 20px;
-    width: min(max(50%, 400px), 90%); /*50%, but if too small on screen (<400px), set to 400px. Also, never more than 90% */
+	font-size: 20px;
+	width: min(
+		max(50%, 400px),
+		90%
+	); /*50%, but if too small on screen (<400px), set to 400px. Also, never more than 90% */
 
-    padding-left: 16px;
-    /*border-radius: 16px 0 0 16px;*/ /*Radius 16px on left side, 0px on right side*/
+    padding: 4px;
+	padding-left: 16px;
+	/*border-radius: 16px 0 0 16px;*/ /*Radius 16px on left side, 0px on right side*/
 
 	margin-right: 0px;
+    border-radius: var(--roundPx) 0 0 var(--roundPx);
 }
 
 #search-bar-button {
-    padding: 0px 10px;
-    /*border-radius: 0 16px 16px 0;*/ /*Radius 16px on right side, 0px on left side*/
+	padding: 4px 18px;
+	/*border-radius: 0 16px 16px 0;*/ /*Radius 16px on right side, 0px on left side*/
 
-    height: 28px; /*Prevent the button to get bigger when the font size change*/
+	height: 36px; /*Prevent the button to get bigger when the font size change*/
 
 	margin-left: 0px;
 	transform: translate(-4px, 0px); /*Why do we need this*/
-
-
 
 	/* Ripped from .coolButton from Au Bon Gros Bazar */
 
 	/*Reset becaue the button change this property*/
 	font: inherit;
 
-    /*Change the cursor when hovering the button*/
+	/*Change the cursor when hovering the button*/
 	cursor: pointer;
 
-    background-color: var(--light-blue);
-	color: black;
-    font-weight: bold;
-    font-size: 18px;
+	background-color: var(--sencond-light);
+	color: var(--black);
+	font-weight: bold;
+	font-size: 18px;
 
 	border-width: 2px;
-    border-style: solid;
-    border-color: var(--main);
-    /* border-radius: 20px; */
+	border-style: solid;
+	border-color: var(--second);
+	/* border-radius: 20px; */
+    border-radius: 0 var(--roundPx) var(--roundPx) 0    ;
 
-    transition-duration: 0.4s;
+	transition-duration: 0.4s;
 }
 
 #search-bar-button:hover {
-    padding: 0px 16px;
+	padding: 4px 24px;
 }
 
 /* Not sure if I should put that here or in nav.css */
 .center-element {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .button-as-text {
-    background: none;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    text-decoration: none;
-    color: black; /* You can customize the color */
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	color: var(--second); /* You can customize the color */
 }
 
 .button-as-text:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #detailled-search {
-    overflow: hidden;
-    margin-top: 12px;
+	overflow: hidden;
+	margin-top: 12px;
 }
 
 #detailled-search-material {
-    margin-top: 12px;
-    /* width: 40%; */
+	margin-top: 12px;
+	/* width: 40%; */
 }
 
 #detailled-search-material > input {
-    margin-right: 12px;
+	margin-right: 12px;
 }
 
-
-
 #post-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+	gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
 }
 
 .postDiv {
-    background-color: var(--grey);
+	background-color: var(--main-light);
 
-    width: 275px;
-    height: 350px;
-    position: relative;
+	width: 275px;
+	height: 350px;
+	position: relative;
 
-    padding: 6px;
+	padding: 6px;
 }
 
 .postDiv > p {
-    margin-top: 12px;
+	margin-top: 12px;
 }
