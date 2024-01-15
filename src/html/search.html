@@ -7,9 +7,11 @@
   <title>Revalonix</title>
   <!-- icon de la page -->
   <link rel="icon" href="../assets/icon/logo_white.svg" />
-  <link rel="stylesheet" href="./nav.css">
-  <link rel="stylesheet" href="./aboutUs.css">
-  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/search.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <script src="../js/conection.js" defer></script>
+  <script src="../js/search.js" defer></script>
 </head>
 
 <body>
@@ -22,8 +24,8 @@
 
     <ul class="list">
       <li class="list-item">
-        <a href="#" class="list-link">Qui Sommes-Nous</a>
-        <a href="#">
+        <a href="./aboutUs.html" class="list-link">Qui Sommes-Nous</a>
+        <a href="./aboutUs.html">
           <svg id="svg" width="25" height="25" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             color="#000000" version="1.1" id="svg3" sodipodi:docname="academic-cap-v2.svg"
             inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -44,8 +46,8 @@
         </a>
       </li>
       <li class="list-item">
-        <a href="./search.html" class="list-link">Annonces</a>
-        <a href="./search.html">
+        <a href="#" class="list-link">Annonces</a>
+        <a href="#">
           <svg id="svg" width="25" height="25" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             color="" version="1.1" id="svg1" sodipodi:docname="search-v2.svg"
             inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -129,13 +131,63 @@
     </div>
   </div>
 
-  <!-- 
-  ==============================
-  
-  CORPS DE LA PAGE
-  
-  ==============================
-   -->
+  <div class="main-container">
+    <div id="search-filter">
+      <div class="center-element">
+        <input id="search-bar-input" type="text" placeholder="Rechercher un matériau">
+        <button id="search-bar-button">
+          <svg id="svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            color="" version="1.1" id="svg1" sodipodi:docname="search-v2.svg"
+            inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+            xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+            <defs id="defs1" />
+            <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000"
+              borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0"
+              inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="16.1875"
+              inkscape:cx="6.7953668" inkscape:cy="14.671815" inkscape:window-width="1920"
+              inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9"
+              inkscape:window-maximized="1" inkscape:current-layer="svg1" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m 21.837726,21.836969 -6.558484,-6.558485 m 2.186161,-5.4654049 a 7.6515647,7.6515668 0 1 1 -15.303129,0 7.6515647,7.6515668 0 0 1 15.303129,0 z"
+              id="path1" style="stroke-width:2.182;stroke-dasharray:none" />
+          </svg>
+        </button>
+      </div>
+      <br>
+      <div class="center-element">
+        <button id="detailled-search-button" class="button-as-text">
+          Recherche avancée
+        </button>
+      </div>
+      <div id="detailled-search" style="max-height: 0px;">
+        <h2>
+          Type de matériau
+        </h2>
+        <select id="detailled-search-material">
+          <option value="paper">
+            Papier
+          </option>
+          <option value="glass">
+            Verre
+          </option>
+          <option value="cardboard">
+            Carton
+          </option>
+          <option value="metal">
+            Métal propre
+          </option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <h1>
+        TODO : Y'aura les annonces ici plus tard
+      </h1>
+    </div>
+  </div>
+
 
   <footer>
     <div class="footer-content">
@@ -164,7 +216,7 @@
   </footer>
 
 
-  <script src="./conection.js"></script>
+
 </body>
 
 </html>
