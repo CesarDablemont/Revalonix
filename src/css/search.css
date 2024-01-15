@@ -6,7 +6,7 @@ body {
 	/* width: 90%; */
 	/* max-width: 1200px; Optional: set a maximum width for the main container */
 	margin: 0 auto; /* Center the main container horizontally */
-	height: calc(100vh - 100px);
+	min-height: calc(100vh - 100px);
 }
 
 #search-filter {
@@ -101,6 +101,7 @@ body {
 }
 
 #post-list {
+    margin: 0 10%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 	gap: 10px;
