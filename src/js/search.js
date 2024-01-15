@@ -40,3 +40,32 @@ function detailledHideAnim(shouldShow) {
 }
 
 */
+
+var postList = document.getElementById("post-list");
+
+async function loadPosts() {
+    //Load deetas
+    try {
+        const response = await fetch('../js/json/posts.json'); //Why does it search from search.html and not search.js ? js is dumb ooga booga
+        posts = await response.json();
+    } catch (error) {
+        console.error(error);
+        return;
+    }
+
+    posts.posts.forEach(post => {
+        var postDiv = document.createElement("div");
+
+        var postTitle = document.createElement("h3");
+        postTitle.innerHTML = post.name;
+        postDiv.appendChild(postTitle);
+
+        var postDesc = document.createElement("p");
+        postDesc.innerHTML = post.description;
+        postDiv.appendChild(postDesc);
+
+        postList.appendChild(postDiv);
+    });
+}
+
+loadPosts();
