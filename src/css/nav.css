@@ -33,6 +33,7 @@
 	--grey: #BBBBBB;
 
 	--roundPx: 10px;
+	--roundPxBig: 20px;
 }
 
 button {
@@ -50,6 +51,10 @@ button {
 h1 {
 	font-family: 'SF Pro';
 	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
 }
 
 /*----------- Nav bar --------- */
