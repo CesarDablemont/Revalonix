@@ -11,17 +11,41 @@ body {
 }
 
 .left-content {
+	font-family: 'SF Pro';
 	width: 40%;
 	padding: 20px; /* Optional: add padding to the left div */
-	
+	margin: 50px 0 0 80px;
+}
+
+.left-content #hook {
+	color: var(--black);
+	font-size: 80px;
+	margin-bottom: 60px;
+}
+
+.left-content .button {
+	border-radius: var(--roundPxBig);
+	background-color: var(--second);
+	display: flex;
+	margin-top: 20px;
+	width: 450px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-content a {
+	color: var(--soft-white);
+	font-size: 25px;
 }
 
 .right-content {
 	width: 60%;
 	padding: 20px; /* Optional: add padding to the right div */
+	margin-bottom: 30px;
 }
 
 .right-content img {
-	width: 100%;
+	width: 95%;
 	height: 100%;
 }
