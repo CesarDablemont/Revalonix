@@ -95,7 +95,15 @@ var checkboxGlass = document.getElementById("detailled-search-material-glass");
 var checkboxCardboard = document.getElementById("detailled-search-material-cardboard");
 var checkboxMetal = document.getElementById("detailled-search-material-metal");
 
+var fillingDivs = [];
+
 function refreshList() {
+    var numberOfShownDivs = 0;
+
+    fillingDivs.forEach(div => {
+        postList.removeChild(div);
+    });
+
     for(var i = 0; i < postDivs.length; i++)
     {
         //Hide the div by default
@@ -115,6 +123,15 @@ function refreshList() {
 
         //Show the div
         postDivs[i].style["display"] = "inherit";
+        numberOfShownDivs++;
+    }
+
+    while(numberOfShownDivs + 1 < postList.offsetWidth / 285)
+    {
+        numberOfShownDivs++;
+        var div = document.createElement("div");
+        fillingDivs.push(div);
+        postList.appendChild(div);
     }
 }
 
