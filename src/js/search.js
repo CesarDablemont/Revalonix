@@ -23,3 +23,20 @@ function detailledHideAnim(shouldShow) {
     if(currentDetailledSearchDivMaxHeight == 0 || currentDetailledSearchDivMaxHeight == maxMaxHeightDetailledSearchDivAnim)
         window.clearInterval(detailledSearchDivAnim);
 }
+
+/*
+
+[posts.json data architecture]
+
+{
+    "posts":[
+        {
+            "name":string,
+            "type":string,
+            "description":string
+        }
+        ...
+    ]
+}
+
+*/
