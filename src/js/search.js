@@ -55,7 +55,9 @@ function detailledHideAnim(shouldShow) {
 
 var postList = document.getElementById("post-list");
 
+//Warning : The two arrays should be synced
 var postDivs = [];
+var postDatas = [];
 
 async function loadPosts() {
     //Load deetas
@@ -79,6 +81,7 @@ async function loadPosts() {
         postDesc.innerHTML = post.description;
         postDiv.appendChild(postDesc);
 
+        postDatas.push(post);
         postDivs.push(postDiv);
         postList.appendChild(postDiv);
     });
@@ -86,9 +89,32 @@ async function loadPosts() {
 
 loadPosts();
 
+var searchBar = document.getElementById("search-bar-input");
+var checkboxPaper = document.getElementById("detailled-search-material-paper");
+var checkboxGlass = document.getElementById("detailled-search-material-glass");
+var checkboxCardboard = document.getElementById("detailled-search-material-cardboard");
+var checkboxMetal = document.getElementById("detailled-search-material-metal");
+
 function refreshList() {
-    postDivs.forEach(post => {
-        //post.style["display"] = "none";
-    });
+    for(var i = 0; i < postDivs.length; i++)
+    {
+        //Hide the div by default
+        postDivs[i].style["display"] = "none";
+
+        //Check if it should actually be hidden
+        if(!(postDatas[i].name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") + postDatas[i].description.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")).includes(searchBar.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")))
+            continue;
+        if(postDatas[i].type == "paper" && !checkboxPaper.checked)
+            continue;
+        if(postDatas[i].type == "glass" && !checkboxGlass.checked)
+            continue;
+        if(postDatas[i].type == "cardboard" && !checkboxCardboard.checked)
+            continue;
+        if(postDatas[i].type == "metal" && !checkboxMetal.checked)
+            continue;
+
+        //Show the div
+        postDivs[i].style["display"] = "inherit";
+    }
 }
 

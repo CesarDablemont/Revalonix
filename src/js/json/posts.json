@@ -47,12 +47,12 @@
         },
         {
             "name":"Placeholder (Carton)",
-            "type":"paper",
+            "type":"cardboard",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
         },
         {
             "name":"Placeholder (Carton)",
-            "type":"paper",
+            "type":"cardboard",
             "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
         }
     ]
