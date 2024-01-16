@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Revalonix</title>
   <!-- icon de la page -->
+  <link rel="icon" href="../../assets/icon/logo_white.svg" />
+
+  <!-- popup cookies -->
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0-rc.17/dist/cookieconsent.css">
+  <script type="module" src="../js/cookieconsent-config.js" defer></script>
 
-  <link rel="icon" href="../../assets/icon/logo_white.svg" />
   <link rel="stylesheet" href="../css/nav.css">
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/footer.css">
   <script src="../js/conection.js" defer></script>
-  <script type="module" src="../js/cookieconsent-config.js" defer></script>
 </head>
 
 <body>
@@ -125,7 +127,8 @@
 
         <label class="label popupHide2" for="siret">
           <span class="span">Numéro de SIRET</span>
-          <input class="input" type="text" name="siret" id="siret" placeholder="123 456 789 00000" />
+          <input class="input" type="text" name="siret" id="siret"
+            placeholder="123 456 789 00000" />
         </label>
 
         <button class="submit" type="submit" id="loginT3">S'inscrire</button>

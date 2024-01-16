@@ -7,6 +7,12 @@
   <title>Revalonix</title>
   <!-- icon de la page -->
   <link rel="icon" href="../../assets/icon/logo_white.svg" />
+
+  <!-- popup cookies -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0-rc.17/dist/cookieconsent.css">
+  <script type="module" src="../js/cookieconsent-config.js" defer></script>
+
   <link rel="stylesheet" href="../css/nav.css">
   <link rel="stylesheet" href="../css/search.css">
   <link rel="stylesheet" href="../css/footer.css">
@@ -135,7 +141,8 @@
   <div class="main-container">
     <div id="search-filter">
       <div class="center-element">
-        <input id="search-bar-input" type="text" placeholder="Rechercher un matériau" oninput="refreshList()">
+        <input id="search-bar-input" type="text" placeholder="Rechercher un matériau"
+          oninput="refreshList()">
         <button id="search-bar-button" onclick="refreshList()">
           <svg id="svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             color="" version="1.1" id="svg1" sodipodi:docname="search-v2.svg"
@@ -183,13 +190,17 @@
         </select>
         -->
         <div id="detailled-search-material">
-          <input type="checkbox" id="detailled-search-material-paper" name="paper" onclick="refreshList()" checked>
+          <input type="checkbox" id="detailled-search-material-paper" name="paper"
+            onclick="refreshList()" checked>
           <label for="detailled-search-material-paper">Papier</label><br>
-          <input type="checkbox" id="detailled-search-material-glass" name="glass" onclick="refreshList()" checked>
+          <input type="checkbox" id="detailled-search-material-glass" name="glass"
+            onclick="refreshList()" checked>
           <label for="detailled-search-material-glass">Verre</label><br>
-          <input type="checkbox" id="detailled-search-material-cardboard" name="cardboard" onclick="refreshList()" checked>
+          <input type="checkbox" id="detailled-search-material-cardboard" name="cardboard"
+            onclick="refreshList()" checked>
           <label for="detailled-search-material-cardboard">Carton</label><br>
-          <input type="checkbox" id="detailled-search-material-metal" name="metal" onclick="refreshList()" checked>
+          <input type="checkbox" id="detailled-search-material-metal" name="metal"
+            onclick="refreshList()" checked>
           <label for="detailled-search-material-metal">Métal propre</label><br>
         </div>
       </div>
