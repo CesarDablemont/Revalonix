@@ -1,59 +1,84 @@
 {
-    "posts":[
+    "posts": [
         {
-            "name":"Chûtes d'inox",
-            "type":"metal",
-            "description":"Plaques en inox de 50cm sur 30cm de 5mm d'épaisseur. 15 cercles de 8cm de diamètre ont été découpées dedans comme sur la photo ci-jointe."
+            "name": "Chûtes d'inox",
+            "type": "metal",
+            "description": "<b>Annonce de l'entreprise MétaLux :</b><br> Plaques en inox de 50cm sur 30cm de 5mm d'épaisseur.<br> 15 cercles de 8cm de diamètre ont été découpés. Idéal pour la fabrication de pièces métalliques sur mesure. Contactez-nous pour plus d'informations."
         },
         {
-            "name":"Plaques de verre",
-            "type":"glass",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Vases en Verre Soufflé",
+            "type": "glass",
+            "description": "<b>Annonce de l'entreprise CristalArt :</b><br> Vases en verre soufflé à la main, disponibles en différentes formes et couleurs.<br> Ces œuvres d'art uniques ajoutent une touche élégante à tout intérieur. Contactez-nous pour des offres de lot."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Rouleaux de Papier Non Utilisés",
+            "type": "paper",
+            "description": "<b>Annonce de l'entreprise PapierPlus :</b><br> Rouleaux de papier non utilisés, idéaux pour les travaux d'emballage, de protection ou de création artistique.<br> Contactez-nous pour des quantités en gros à des tarifs avantageux."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Cartons d'Emballage Légers",
+            "type": "cardboard",
+            "description": "<b>Annonce de l'entreprise ÉcoEmballage :</b><br> Cartons d'emballage légers disponibles en grandes quantités.<br> Convient pour l'expédition, le stockage ou la création de meubles et d'objets en carton. Contactez-nous pour des arrangements de collecte."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Tubes de Cuivre",
+            "type": "metal",
+            "description": "<b>Annonce de l'entreprise CuivreTech :</b><br> Tubes en cuivre de différents diamètres disponibles.<br> Parfaits pour les projets de plomberie et de construction. Contactez-nous pour les spécifications détaillées."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Bouteilles en Verre Recyclées",
+            "type": "glass",
+            "description": "<b>Annonce de l'entreprise VerreCyclé :</b><br> Bouteilles en verre recyclées, idéales pour les projets artisanaux et de décoration.<br> Différentes formes et tailles disponibles. Contactez-nous pour les disponibilités."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Papier Kraft Non Blanchi",
+            "type": "paper",
+            "description": "<b>Annonce de l'entreprise PapierNature :</b><br> Rouleaux de papier kraft non blanchi, respectueux de l'environnement.<br> Parfaits pour les emballages écologiques. Contactez-nous pour les tarifs en gros."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Cartons d'Emballage Renforcés",
+            "type": "cardboard",
+            "description": "<b>Annonce de l'entreprise CartonPlus :</b><br> Cartons d'emballage renforcés disponibles en différentes tailles.<br> Convient pour les articles lourds et fragiles. Contactez-nous pour les options de personnalisation."
         },
         {
-            "name":"Placeholder (Papier)",
-            "type":"paper",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Chûtes d'acier",
+            "type": "metal",
+            "description": "<b>Annonce de l'entreprise AcierForge :</b><br> Chûtes d'acier de diverses dimensions disponibles.<br> Parfaites pour les projets de construction et de fabrication métallique. Contactez-nous pour les quantités disponibles."
         },
         {
-            "name":"Placeholder (Carton)",
-            "type":"cardboard",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Luminaires en Verre Soufflé",
+            "type": "glass",
+            "description": "<b>Annonce de l'entreprise LuminoArt :</b><br> Luminaires en verre soufflé à la main, apportant une touche artistique à tout espace.<br> Choisissez parmi une variété de styles et de couleurs. Contactez-nous pour les tarifs spéciaux en gros."
         },
         {
-            "name":"Placeholder (Carton)",
-            "type":"cardboard",
-            "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aperiam assumenda alias voluptatibus laudantium accusamus nihil porro nam deleniti facilis incidunt officiis consequuntur, enim explicabo facere quod! Quae, unde! Modi?"
+            "name": "Papier Recyclé",
+            "type": "paper",
+            "description": "<b>Annonce de l'entreprise GreenPaper :</b><br> Papier recyclé de haute qualité disponible en feuilles et rouleaux.<br> Idéal pour les projets d'écriture, d'impression et d'art. Contactez-nous pour les options d'achat en gros."
+        },
+        {
+            "name": "Boîtes en Carton Personnalisées",
+            "type": "cardboard",
+            "description": "<b>Annonce de l'entreprise CartonCréatif :</b><br> Boîtes en carton personnalisées selon vos besoins.<br> Parfaites pour l'emballage de produits et les cadeaux d'entreprise. Contactez-nous pour les détails de personnalisation."
+        },
+        {
+            "name": "Tôles d'Aluminium",
+            "type": "metal",
+            "description": "<b>Annonce de l'entreprise AluTech :</b><br> Tôles d'aluminium légères et durables disponibles en différentes épaisseurs.<br> Convient pour les projets de construction et les applications industrielles. Contactez-nous pour les spécifications techniques."
+        },
+        {
+            "name": "Objets d'Art en Verre Fusionné",
+            "type": "glass",
+            "description": "<b>Annonce de l'entreprise FusionGlass :</b><br> Objets d'art uniques en verre fusionné, créés à la main.<br> Des pièces décoratives élégantes pour les collectionneurs et les amateurs d'art. Contactez-nous pour la disponibilité."
+        },
+        {
+            "name": "Cahiers Écologiques",
+            "type": "paper",
+            "description": "<b>Annonce de l'entreprise EcoNotebooks :</b><br> Cahiers écologiques fabriqués à partir de papier recyclé et de matériaux durables.<br> Idéaux pour les écoles, les entreprises et les événements promotionnels. Contactez-nous pour les options de personnalisation."
+        },
+        {
+            "name": "Emballages en Carton Bio",
+            "type": "cardboard",
+            "description": "<b>Annonce de l'entreprise BioPack :</b><br> Emballages en carton biodégradables et respectueux de l'environnement.<br> Contribuez à la durabilité tout en emballant vos produits. Contactez-nous pour les tarifs en gros."
         }
     ]
 }
