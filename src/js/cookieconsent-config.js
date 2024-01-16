@@ -100,7 +100,7 @@ CookieConsent.run({
       en: {
         consentModal: {
           title: 'We use cookies',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+          description: 'For the proper functioning of the site and the various functionalities, cookies are recommended.',
           acceptAllBtn: 'Accept all',
           acceptNecessaryBtn: 'Reject all',
           showPreferencesBtn: 'Manage Individual preferences',
@@ -169,7 +169,7 @@ CookieConsent.run({
       fr: {
         consentModal: {
           title: 'Nous utilisons des cookies',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+          description: 'Pour le bon fonctionnement du site et les différentes fonctionnalités, les cookies sont recommandés.',
           acceptAllBtn: 'Accepter tout',
           acceptNecessaryBtn: 'Refuser tout',
           showPreferencesBtn: 'Gérer les préférences individuelles',
