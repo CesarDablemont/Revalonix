@@ -103,6 +103,7 @@ function refreshList() {
     fillingDivs.forEach(div => {
         postList.removeChild(div);
     });
+    fillingDivs = [];
 
     for(var i = 0; i < postDivs.length; i++)
     {
@@ -122,7 +123,7 @@ function refreshList() {
             continue;
 
         //Show the div
-        postDivs[i].style["display"] = "inherit";
+        postDivs[i].style["display"] = "block";
         numberOfShownDivs++;
     }
 
