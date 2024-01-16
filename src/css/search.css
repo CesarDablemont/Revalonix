@@ -12,7 +12,7 @@ body {
 #search-filter {
 	margin: 24px 30%;
 	padding: 12px;
-    /* border: solid 2px var(--main); */
+	/* border: solid 2px var(--main); */
 }
 
 #search-bar-input {
@@ -22,12 +22,12 @@ body {
 		90%
 	); /*50%, but if too small on screen (<400px), set to 400px. Also, never more than 90% */
 
-    padding: 4px;
+	padding: 4px;
 	padding-left: 16px;
 	/*border-radius: 16px 0 0 16px;*/ /*Radius 16px on left side, 0px on right side*/
 
 	margin-right: 0px;
-    border-radius: var(--roundPx) 0 0 var(--roundPx);
+	border-radius: var(--roundPx) 0 0 var(--roundPx);
 }
 
 #search-bar-button {
@@ -56,9 +56,9 @@ body {
 	border-style: solid;
 	border-color: var(--second);
 	/* border-radius: 20px; */
-    border-radius: 0 var(--roundPx) var(--roundPx) 0    ;
+	border-radius: 0 var(--roundPx) var(--roundPx) 0;
 
-	transition-duration: 0.4s;
+	transition: 0.3s ease-in-out;
 }
 
 #search-bar-button:hover {
@@ -101,13 +101,13 @@ body {
 }
 
 #post-list {
-    margin: 0 10%;
+	margin: 0 10%;
 	display: grid;
-    align-items: start;
+	align-items: start;
 	grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 	gap: 10px;
 	grid-auto-rows: minmax(100px, auto);
-    margin: 0px 48px;
+	margin: 0px 48px;
 }
 
 .postDiv {
@@ -139,8 +139,6 @@ body {
     padding: 6px;
     box-sizing: border-box;
 } */
-
-
 
 .postDiv > p {
 	margin-top: 12px;
