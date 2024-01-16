@@ -7,9 +7,9 @@
 			"society": "MétaLux"
 		},
 		{
-			"name": "Vases en Verre Soufflé",
+			"name": "Vases non conforme en Verre Soufflé",
 			"type": "glass",
-			"description": "Vases en verre soufflé à la main, disponibles en différentes formes et couleurs.<br> Ces œuvres d'art uniques ajoutent une touche élégante à tout intérieur. Contactez-nous pour des offres de lot.",
+			"description": "Vases en verre soufflé à la main non conformes de différentes couleurs.<br>Contactez-nous pour des offres de lot.",
 			"society": "CristalArt"
 		},
 		{
@@ -27,19 +27,19 @@
 		{
 			"name": "Tubes de Cuivre",
 			"type": "metal",
-			"description": "Tubes en cuivre de différents diamètres disponibles.<br> Parfaits pour les projets de plomberie et de construction. Contactez-nous pour les spécifications détaillées.",
+			"description": "Tubes en cuivre de différents diamètres disponibles repris de projets de plomberie et de construction. Contactez-nous pour les spécifications détaillées.",
 			"society": "CuivreTech"
 		},
 		{
 			"name": "Bouteilles en Verre Recyclées",
 			"type": "glass",
-			"description": "Bouteilles en verre recyclées, idéales pour les projets artisanaux et de décoration.<br> Différentes formes et tailles disponibles. Contactez-nous pour les disponibilités.",
+			"description": "Bouteilles en verre actuellement mises au recyclage, Pourrait être utilisés tel quel dans des projets.<br> Différentes formes et tailles disponibles. Contactez-nous pour les disponibilités.",
 			"society": "VerreCyclé"
 		},
 		{
 			"name": "Papier Kraft Non Blanchi",
 			"type": "paper",
-			"description": "Rouleaux de papier kraft non blanchi, respectueux de l'environnement.<br> Parfaits pour les emballages écologiques. Contactez-nous pour les tarifs en gros.",
+			"description": "Rouleaux de papier kraft non blanchi, respectueux de l'environnement.<br>Contactez-nous pour les tarifs en gros.",
 			"society": "PapierNature"
 		},
 		{
@@ -55,21 +55,21 @@
 			"society": "AcierForge"
 		},
 		{
-			"name": "Luminaires en Verre Soufflé",
+			"name": "Luminaires non conforme en Verre Soufflé",
 			"type": "glass",
-			"description": "Luminaires en verre soufflé à la main, apportant une touche artistique à tout espace.<br> Choisissez parmi une variété de styles et de couleurs. Contactez-nous pour les tarifs spéciaux en gros.",
+			"description": "Luminaires non conforme en verre soufflé à la main.<br> Multiple styles et couleurs. Contactez-nous pour les spécificités et les tarifs en gros.",
 			"society": "LuminoArt"
 		},
 		{
 			"name": "Papier Recyclé",
 			"type": "paper",
-			"description": "Papier recyclé de haute qualité disponible en feuilles et rouleaux.<br> Idéal pour les projets d'écriture, d'impression et d'art. Contactez-nous pour les options d'achat en gros.",
+			"description": "Papier recyclé disponible en feuilles et rouleaux.<br>Contactez-nous pour les options d'achat en gros.",
 			"society": "GreenPaper"
 		},
 		{
-			"name": "Boîtes en Carton Personnalisées",
+			"name": "Boîtes en Carton",
 			"type": "cardboard",
-			"description": "Boîtes en carton personnalisées selon vos besoins.<br> Parfaites pour l'emballage de produits et les cadeaux d'entreprise. Contactez-nous pour les détails de personnalisation.",
+			"description": "Boîtes en carton.<br> Parfaites pour l'emballage de produits et les cadeaux d'entreprise. Contactez-nous pour les détails de personnalisation.",
 			"society": "CartonCréatif"
 		},
 		{
@@ -81,7 +81,7 @@
 		{
 			"name": "Objets d'Art en Verre Fusionné",
 			"type": "glass",
-			"description": "Objets d'art uniques en verre fusionné, créés à la main.<br> Des pièces décoratives élégantes pour les collectionneurs et les amateurs d'art. Contactez-nous pour la disponibilité.",
+			"description": "Objets d'art uniques en verre fusionné, récupérés à des particuliers.<br> Des pièces décoratives ou recyclables. Contactez-nous pour la disponibilité.",
 			"society": "FusionGlass"
 		},
 		{
