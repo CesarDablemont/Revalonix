@@ -121,24 +121,24 @@ body {
 } */
 
 #post-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 300px));
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    margin: 0 auto;
-    max-width: 90%;
-    justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(275px, 300px));
+	gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	margin: 0 auto;
+	max-width: 90%;
+	justify-content: center;
 	margin-bottom: 24px;
 }
 
 .postDiv {
-    background-color: var(--main-light);
-    min-width: 275px;
-    max-width: 300px;
-    height: 350px;
-    position: relative;
-    padding: 6px;
-    box-sizing: border-box;
+	background-color: var(--main-light);
+	min-width: 275px;
+	max-width: 300px;
+	height: 350px;
+	position: relative;
+	padding: 6px;
+	box-sizing: border-box;
 }
 
 .postDiv > p {
