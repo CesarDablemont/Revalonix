@@ -34,7 +34,7 @@ body {
 	padding: 4px 18px;
 	/*border-radius: 0 16px 16px 0;*/ /*Radius 16px on right side, 0px on left side*/
 
-	height: 36px; /*Prevent the button to get bigger when the font size change*/
+	height: 34px; /*Prevent the button to get bigger when the font size change*/
 
 	margin-left: 0px;
 	transform: translate(-4px, 0px); /*Why do we need this*/
