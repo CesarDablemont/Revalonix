@@ -106,7 +106,7 @@ CookieConsent.run({
           showPreferencesBtn: 'Manage Individual preferences',
           // closeIconLabel: 'Reject all and close modal',
           footer: `
-                      <a href="#path-to-impressum.html" target="_blank">Impressum</a>
+                      <a href="#path-to-impressum.html" target="_blank">Imprimer</a>
                       <a href="#path-to-privacy-policy.html" target="_blank">Privacy Policy</a>
                   `,
         },
@@ -174,7 +174,7 @@ CookieConsent.run({
           acceptNecessaryBtn: 'Refuser tout',
           showPreferencesBtn: 'Gérer les préférences individuelles',
           footer: `
-            <a href="#path-to-impressum.html" target="_blank">Impressum</a>
+            <a href="#path-to-impressum.html" target="_blank">Imprimer</a>
             <a href="#path-to-privacy-policy.html" target="_blank">Politique de confidentialité</a>
           `,
         },
