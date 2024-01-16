@@ -111,7 +111,10 @@ function refreshList() {
         postDivs[i].style["display"] = "none";
 
         //Check if it should actually be hidden
-        if(!(postDatas[i].name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") + postDatas[i].description.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")).includes(searchBar.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")))
+        if(!(postDatas[i].name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") +
+            postDatas[i].society.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") +
+            postDatas[i].description.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
+            .includes(searchBar.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")))
             continue;
         if(postDatas[i].type == "paper" && !checkboxPaper.checked)
             continue;
