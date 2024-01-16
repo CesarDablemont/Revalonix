@@ -3,8 +3,38 @@ body {
 }
 
 .main-container {
-	/* width: 90%; */
-	/* max-width: 1200px; Optional: set a maximum width for the main container */
+	display: flex;
 	margin: 0 auto; /* Center the main container horizontally */
 	min-height: calc(100vh - 100px);
+}
+
+/* tout les enfants de main-container */
+.main-container > * {
+	padding: 50px;
+}
+
+.left-content {
+	font-family: 'SF Pro';
+	width: 50%;
+	padding: 20px; /* Optional: add padding to the left div */
+	margin: 50px 0 0 80px;
+}
+
+.left-content h2 {
+	text-decoration: underline;
+}
+.left-content p {
+	font-size: 20px;
+	text-align: justify;
+}
+
+.right-content {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.right-content img {
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
 }
