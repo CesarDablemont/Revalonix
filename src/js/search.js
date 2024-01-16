@@ -78,7 +78,7 @@ async function loadPosts() {
         postDiv.appendChild(postTitle);
 
         var postDesc = document.createElement("p");
-        postDesc.innerHTML = post.description;
+        postDesc.innerHTML = "<b>Entreprise " + post.society + " :</b><br> " + post.description;
         postDiv.appendChild(postDesc);
 
         postDatas.push(post);
