@@ -50,9 +50,19 @@ body {
 	height: 100%;
 }
 
+#findPostLabel {
+	cursor: pointer;
+}
+
 #findPostInput {
 	font-size: var(--humongusText);
 	color: var(--soft-white);
 	border: none;
-	background-color: #00000000;
+	background-color: var(--second-dark);
+}
+
+#findPostIcon {
+	/* border: 1px solid var(--black); */
+	background-color: var(--second-dark);
+	margin-left: 2px;
 }
