@@ -36,7 +36,7 @@ body {
 
 .left-content a {
 	color: var(--soft-white);
-	font-size: 25px;
+	font-size: var(--humongusText);
 }
 
 .right-content {
@@ -48,4 +48,11 @@ body {
 .right-content img {
 	width: 95%;
 	height: 100%;
+}
+
+#findPostInput {
+	font-size: var(--humongusText);
+	color: var(--soft-white);
+	border: none;
+	background-color: #00000000;
 }
