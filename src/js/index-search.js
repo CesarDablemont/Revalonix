@@ -21,5 +21,5 @@ function keyPressedOnInput()
 
 function searchPostFromIndex()
 {
-    console.log(input.value);
+    location.href = "search.html?search=" + input.value;
 }
