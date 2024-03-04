@@ -55,6 +55,7 @@ body {
 }
 
 #findPostInput {
+	border-radius: var(--roundPx);
 	font-size: var(--humongusText);
 	color: var(--soft-white);
 	border: none;
@@ -62,6 +63,7 @@ body {
 }
 
 #findPostIcon {
+	border-radius: var(--roundPx);
 	/* border: 1px solid var(--black); */
 	background-color: var(--second-dark);
 	margin-left: 2px;
