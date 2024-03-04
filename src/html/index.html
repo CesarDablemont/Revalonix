@@ -147,8 +147,8 @@
       </div>
       <div class="button" style="width:450px">
         <a id="findPostLabel" style="display: inherit;" onclick="searchPostClicked()">Trouver une annonce</a>
-        <input id="findPostInput" type="text"  style="display: none;">
-        <img id="findPostIcon" src="../../assets/icon/arrow.svg" width="30px"  style="display: none;">
+        <input id="findPostInput" type="text"  style="display: none;" onkeydown="keyPressedOnInput()">
+        <img id="findPostIcon" src="../../assets/icon/arrow.svg" width="30px"  style="display: none;" onclick="searchPostFromIndex()">
       </div>
     </div>
 

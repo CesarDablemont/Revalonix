@@ -7,4 +7,19 @@ function searchPostClicked()
     label.style["display"] = "none";
     input.style["display"] = "inherit";
     icon.style["display"] = "inherit";
+
+    input.focus();
+    input.selected();
+}
+
+function keyPressedOnInput()
+{
+    if(event.key === 'Enter') {
+        searchPostFromIndex();
+    }
+}
+
+function searchPostFromIndex()
+{
+    console.log(input.value);
 }
