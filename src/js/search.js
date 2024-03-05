@@ -1,10 +1,22 @@
 const maxMaxHeightDetailledSearchDivAnim = 120; //In px
 const maxHeightDeltaDetailledSearchDivAnim = 10;
 
-var detailledSearchDiv = document.getElementById("detailled-search");
+const searchBar = document.getElementById("search-bar-input");
+const checkboxPaper = document.getElementById("detailled-search-material-paper");
+const checkboxGlass = document.getElementById("detailled-search-material-glass");
+const checkboxCardboard = document.getElementById("detailled-search-material-cardboard");
+const checkboxMetal = document.getElementById("detailled-search-material-metal");
+
+const detailledSearchDiv = document.getElementById("detailled-search");
 var detailledSearchDivShown = false;
 var currentDetailledSearchDivMaxHeight = 0;
 var detailledSearchDivAnim = null;
+
+const search = new URLSearchParams(window.location.search).get('search');
+if(search != null)
+{
+    searchBar.value = search;
+}
 
 document.getElementById("detailled-search-button").addEventListener("click", function() {
     if(detailledSearchDivAnim != null)
@@ -89,12 +101,6 @@ async function loadPosts() {
 
 loadPosts();
 
-var searchBar = document.getElementById("search-bar-input");
-var checkboxPaper = document.getElementById("detailled-search-material-paper");
-var checkboxGlass = document.getElementById("detailled-search-material-glass");
-var checkboxCardboard = document.getElementById("detailled-search-material-cardboard");
-var checkboxMetal = document.getElementById("detailled-search-material-metal");
-
 var fillingDivs = [];
 
 function refreshList() {
@@ -138,4 +144,3 @@ function refreshList() {
         postList.appendChild(div);
     }
 }
-
