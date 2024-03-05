@@ -12,10 +12,25 @@ var detailledSearchDivShown = false;
 var currentDetailledSearchDivMaxHeight = 0;
 var detailledSearchDivAnim = null;
 
-const search = new URLSearchParams(window.location.search).get('search');
-if(search != null)
+function searchFromIndex()
 {
-    searchBar.value = search;
+    const search = new URLSearchParams(window.location.search).get('search');
+    if(search != null)
+    {
+        searchBar.value = search;
+        const checkPaper = search.toLowerCase().includes("papier");
+        const checkGlass = search.toLowerCase().includes("verre");
+        const checkCardboard = search.toLowerCase().includes("carton");
+        const checkMetal = search.toLowerCase().includes("métal");
+        if(checkPaper || checkGlass || checkCardboard || checkMetal)
+        {
+            checkboxPaper.checked = checkPaper;
+            checkboxGlass.checked = checkGlass;
+            checkboxCardboard.checked = checkCardboard;
+            checkboxMetal.checked = checkMetal;
+        }
+        refreshList()
+    }
 }
 
 document.getElementById("detailled-search-button").addEventListener("click", function() {
@@ -97,6 +112,8 @@ async function loadPosts() {
         postDivs.push(postDiv);
         postList.appendChild(postDiv);
     });
+
+    searchFromIndex();
 }
 
 loadPosts();
