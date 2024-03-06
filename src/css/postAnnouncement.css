@@ -20,7 +20,12 @@ body {
 	box-sizing: border-box;
 }
 
-
+.postADiv > br {
+	display: block;
+   	margin: 2px 0;
+	line-height:22px;
+	content: " ";
+}
 
 /* Stolen code from https://stackoverflow.com/questions/49796934/add-a-text-suffix-to-input-type-number */
 
