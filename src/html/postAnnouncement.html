@@ -138,10 +138,41 @@
 
   <div class="main-container">
     <div class="postADiv">
-      Placeholder
+        <form id="productForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <br>
+            <label for="type">Type:</label>
+            <input type="text" id="type" name="type" required>
+            <br>
+            <label for="localisation">Localisation:</label>
+            <input type="text" id="localisation" name="localisation" required>
+            <br>
+            <label for="transactionType">To offer or to sell?</label>
+            <div>
+              <input type="radio" id="offer" name="transactionType" value="offer" required>
+              <label for="offer">To Offer</label>
+            </div>
+            <div>
+                <input type="radio" id="sell" name="transactionType" value="sell" required>
+                <label for="sell">To Sell</label>
+            </div>
+            
+            <label for="price">Price:</label>
+            <div class="euroSuffix">
+              <input type="number" id="price" name="price">
+            </div>
+            <br>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            <br>
+            <label for="photos">Photos:</label>
+            <input type="file" id="photos" name="photos" accept="image/*">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-  </div>
-
+</div>
 
   <footer>
     <div class="footer-content">
