@@ -27,6 +27,14 @@ body {
 	content: " ";
 }
 
+#additionnalFields > div {
+	margin-bottom: 2px;
+}
+
+.additonnalField > * {
+	margin-right: 2px;
+}
+
 /* Stolen code from https://stackoverflow.com/questions/49796934/add-a-text-suffix-to-input-type-number */
 
 /* prepare wrapper element */

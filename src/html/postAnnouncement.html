@@ -137,6 +137,10 @@
     </div>
   </div>
 
+  <!--
+    TODO
+    
+  -->
   <div class="main-container">
       <form class="postADiv" id="productForm">
           <label for="title">Titre : </label>
@@ -167,6 +171,17 @@
           <br>
           <label for="photos">Photos :</label>
           <input type="file" id="photos" name="photos" accept="image/*">
+          <br>
+          <p>Informations additionnelles : </p>
+          <br>
+          <div id="additionnalFields">
+            <!-- Filled up by the JS -->
+            <datalist id="additionnalFieldsDatalist">
+              <!-- Filled up by the JS -->
+            </datalist>
+          </div>
+          <br>
+          <button onclick="addField(null)">Ajouter un champ</button>
           <br>
           <button type="submit">Enregistrer</button>
       </form>
