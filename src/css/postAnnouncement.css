@@ -7,4 +7,15 @@ body {
 	/* max-width: 1200px; Optional: set a maximum width for the main container */
 	margin: 0 auto; /* Center the main container horizontally */
 	min-height: calc(100vh - 100px);
+
+	/* display: flex; */
+	justify-content: center;
+	padding: 20px 10vw;
+}
+
+.postADiv {
+	background-color: var(--main-light);
+	position: relative;
+	padding: 6px;
+	box-sizing: border-box;
 }
