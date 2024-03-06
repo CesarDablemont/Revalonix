@@ -25,13 +25,13 @@ body {
 /* Stolen code from https://stackoverflow.com/questions/49796934/add-a-text-suffix-to-input-type-number */
 
 /* prepare wrapper element */
-div {
+.suffixDiv {
 	display: inline-block;
 	position: relative;
   }
   
   /* position the unit to the right of the wrapper */
-  div::after {
+  .suffixDiv::after {
 	position: absolute;
 	top: 2px;
 	right: .5em;
@@ -40,14 +40,14 @@ div {
   
   /* move unit more to the left on hover or focus within
 	 for arrow buttons will appear to the right of number inputs */
-  div:hover::after,
-  div:focus-within::after {
+	 .suffixDiv:hover::after,
+	 .suffixDiv:focus-within::after {
 	right: 1.5em;
   }
   
   /* handle Firefox (arrows always shown) */
   @supports (-moz-appearance:none) {
-	div::after {
+	.suffixDiv::after {
 	  right: 1.5em;
 	}
   }
