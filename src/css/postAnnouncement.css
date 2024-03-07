@@ -35,6 +35,14 @@ body {
 	margin-right: 2px;
 }
 
+.additonnalField > button {
+	background-color: white;
+	border: 1px solid #767676;
+	width: 20px;
+	height: 20px;
+	transform: translateY(1px); /*Ouga Bouga*/
+}
+
 /* Stolen code from https://stackoverflow.com/questions/49796934/add-a-text-suffix-to-input-type-number */
 
 /* prepare wrapper element */
