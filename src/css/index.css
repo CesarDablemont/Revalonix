@@ -43,11 +43,25 @@ body {
 	width: 60%;
 	padding: 20px; /* Optional: add padding to the right div */
 	margin-bottom: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.right-content img {
+.right-content > img {
 	width: 95%;
 	height: 100%;
+}
+
+.right-content > p {
+	margin-left: auto;
+	font-size: small;
+}
+
+.right-content > p > a {
+	text-decoration: underline;
+	color: black;
 }
 
 #findPostLabel {
