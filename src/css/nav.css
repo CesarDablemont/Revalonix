@@ -272,7 +272,7 @@ select {
     background-color: #cccc00;
     padding: 4px;
     position: fixed;
-    bottom: 8px;
+    bottom: 24px;
     right: 8px;
     z-index: 9999;
 }
