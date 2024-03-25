@@ -7,7 +7,7 @@ body {
 	/* max-width: 1200px; Optional: set a maximum width for the main container */
 	margin: 0 auto; /* Center the main container horizontally */
 	display: flex;
-	height: calc(100vh - 100px);
+	min-height: calc(100vh - 100px);
 }
 
 .left-content {
@@ -50,7 +50,8 @@ body {
 }
 
 .right-content > img {
-	width: 95%;
+	/* width: 95%; */
+	width: auto;
 	height: 100%;
 }
 
