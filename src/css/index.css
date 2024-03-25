@@ -3,11 +3,11 @@ body {
 }
 
 .main-container {
-  /* width: 90%; */
-  /* max-width: 1200px; Optional: set a maximum width for the main container */
-  margin: 0 auto; /* Center the main container horizontally */
-  display: flex;
-  min-height: calc(100vh - 100px);
+	/* width: 90%; */
+	/* max-width: 1200px; Optional: set a maximum width for the main container */
+	margin: 0 auto; /* Center the main container horizontally */
+	display: flex;
+	min-height: calc(100vh - 100px);
 }
 
 .left-content {
@@ -40,14 +40,29 @@ body {
 }
 
 .right-content {
-  width: 60%;
-  padding: 20px; /* Optional: add padding to the right div */
-  margin-bottom: 30px;
+	width: 60%;
+	padding: 20px; /* Optional: add padding to the right div */
+	margin-bottom: 30px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.right-content img {
-  width: 95%;
-  height: 100%;
+.right-content > img {
+	/* width: 95%; */
+	width: auto;
+	height: 100%;
+}
+
+.right-content > p {
+	margin-left: auto;
+	font-size: small;
+}
+
+.right-content > p > a {
+	text-decoration: underline;
+	color: black;
 }
 
 #findPostLabel {

@@ -263,3 +263,20 @@ select {
 #loginT2:hover {
 	cursor: pointer;
 }
+
+
+/*----------- WIP Div --------- */
+
+
+#wipDiv {
+    background-color: #cccc00;
+    padding: 4px;
+    position: fixed;
+    bottom: 24px;
+    right: 8px;
+    z-index: 9999;
+}
+
+#wipDiv > p {
+	font-weight: bold;
+}
