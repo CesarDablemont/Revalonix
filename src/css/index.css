@@ -1,70 +1,70 @@
 body {
-	background-color: var(--soft-white);
+  background-color: var(--soft-white);
 }
 
 .main-container {
-	/* width: 90%; */
-	/* max-width: 1200px; Optional: set a maximum width for the main container */
-	margin: 0 auto; /* Center the main container horizontally */
-	display: flex;
-	height: calc(100vh - 100px);
+  /* width: 90%; */
+  /* max-width: 1200px; Optional: set a maximum width for the main container */
+  margin: 0 auto; /* Center the main container horizontally */
+  display: flex;
+  min-height: calc(100vh - 100px);
 }
 
 .left-content {
-	font-family: 'SF Pro';
-	width: 40%;
-	padding: 20px; /* Optional: add padding to the left div */
-	margin: 50px 0 0 80px;
+  font-family: 'SF Pro';
+  width: 40%;
+  padding: 20px; /* Optional: add padding to the left div */
+  margin: 50px 0 0 80px;
 }
 
 .left-content #hook {
-	color: var(--black);
-	font-size: 80px;
-	margin-bottom: 60px;
+  color: var(--black);
+  font-size: 80px;
+  margin-bottom: 60px;
 }
 
 .left-content .button {
-	border-radius: var(--roundPxBig);
-	background-color: var(--second);
-	display: flex;
-	margin-top: 20px;
-	width: 450px;
-	height: 60px;
-	justify-content: center;
-	align-items: center;
+  border-radius: var(--roundPxBig);
+  background-color: var(--second);
+  display: flex;
+  margin-top: 20px;
+  width: 450px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-content a {
-	color: var(--soft-white);
-	font-size: var(--humongusText);
+  color: var(--soft-white);
+  font-size: var(--humongusText);
 }
 
 .right-content {
-	width: 60%;
-	padding: 20px; /* Optional: add padding to the right div */
-	margin-bottom: 30px;
+  width: 60%;
+  padding: 20px; /* Optional: add padding to the right div */
+  margin-bottom: 30px;
 }
 
 .right-content img {
-	width: 95%;
-	height: 100%;
+  width: 95%;
+  height: 100%;
 }
 
 #findPostLabel {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #findPostInput {
-	border-radius: var(--roundPx);
-	font-size: var(--humongusText);
-	color: var(--soft-white);
-	border: none;
-	background-color: var(--second-dark);
+  border-radius: var(--roundPx);
+  font-size: var(--humongusText);
+  color: var(--soft-white);
+  border: none;
+  background-color: var(--second-dark);
 }
 
 #findPostIcon {
-	border-radius: var(--roundPx);
-	/* border: 1px solid var(--black); */
-	background-color: var(--second-dark);
-	margin-left: 2px;
+  border-radius: var(--roundPx);
+  /* border: 1px solid var(--black); */
+  background-color: var(--second-dark);
+  margin-left: 2px;
 }
