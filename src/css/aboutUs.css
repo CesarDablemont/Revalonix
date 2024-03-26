@@ -17,12 +17,12 @@ body {
 .item {
   flex: 1; /* Pour que chaque élément occupe une part égale de l'espace disponible */
   padding: 0; /* Supprimer le padding défini pour tous les enfants de main-container */
+  padding: 20px; /* Optional: add padding to the left div */
 }
 
 .item1 {
   font-family: 'SF Pro';
   width: 50%;
-  padding: 20px; /* Optional: add padding to the left div */
   margin: 50px 0 0 80px;
 }
 
@@ -50,7 +50,7 @@ body {
   /* background: #fff; */
   width: 580px;
   /* border-radius: 15px; */
-  padding: 20px;
+  /* padding: 20px; */
   /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); */
 }
 
