@@ -1,40 +1,86 @@
 body {
-	background-color: var(--soft-white);
+  background-color: var(--soft-white);
 }
 
 .main-container {
-	display: flex;
-	margin: 0 auto; /* Center the main container horizontally */
-	min-height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto; /* Center the main container horizontally */
+  min-height: calc(100vh - 100px);
 }
 
 /* tout les enfants de main-container */
 .main-container > * {
-	padding: 50px;
+  padding: 50px;
 }
 
-.left-content {
-	font-family: 'SF Pro';
-	width: 50%;
-	padding: 20px; /* Optional: add padding to the left div */
-	margin: 50px 0 0 80px;
+.item {
+  flex: 1; /* Pour que chaque élément occupe une part égale de l'espace disponible */
+  padding: 0; /* Supprimer le padding défini pour tous les enfants de main-container */
 }
 
-.left-content h2 {
-	text-decoration: underline;
-}
-.left-content p {
-	font-size: 20px;
-	text-align: justify;
-}
-
-.right-content {
-	width: 50%;
-	margin-bottom: 30px;
+.item1 {
+  font-family: 'SF Pro';
+  width: 50%;
+  padding: 20px; /* Optional: add padding to the left div */
+  margin: 50px 0 0 80px;
 }
 
-.right-content img {
-	width: 100%;
-	max-height: 500px;
-	object-fit: cover;
+.item1 h2 {
+  text-decoration: underline;
+}
+.item1 p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.item2 {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.item2 img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.item3 {
+  flex-basis: 100%;
+  /* background: #fff; */
+  width: 580px;
+  /* border-radius: 15px; */
+  padding: 20px;
+  /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4); */
+}
+
+h2 {
+  text-align: center;
+}
+hr {
+  width: 100px;
+  margin: 10px auto;
+}
+
+.members {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.team-mem {
+  margin: 8px;
+}
+.item3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: cover;
+}
+
+h4,
+p {
+  text-align: center;
+  font-size: 12px;
+  margin: 7px;
 }
